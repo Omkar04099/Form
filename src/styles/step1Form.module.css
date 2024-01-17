@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+
+.dropdown{
+    margin-top: 9px !important;
+}
+
+.labelAndField{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    align-self: center;
+    margin-top: 3rem !important;
+}
+
+.labelAndField label{
+    margin-right: 2rem;
+}
+
+.mandatory{
+    color: red;
+}
+
+.fieldAndError{
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+
+h5{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 3rem;
+}
+
+#govtId{
+    margin-right: 1rem;
+}
